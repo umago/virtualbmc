@@ -85,6 +85,7 @@ class VirtualBMCManager(object):
     def add(self, username, password, port, address, domain_name, libvirt_uri,
             libvirt_sasl_username, libvirt_sasl_password):
 
+        import pdb; pdb.set_trace()
         # check libvirt's connection and if domain exist prior to adding it
         utils.check_libvirt_connection_and_domain(
             libvirt_uri, domain_name,
