@@ -19,7 +19,7 @@ from prettytable import PrettyTable
 
 from virtualbmc import exception
 from virtualbmc import version
-from virtualbmc import VirtualBMCManager
+from virtualbmc.manager import VirtualBMCManager
 
 
 def main():
