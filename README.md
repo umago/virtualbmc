@@ -1,6 +1,8 @@
 Virtual BMC
 ===========
 
+**I've moved this project into [OpenStack](http://openstack.org). The latest code can be found at https://github.com/openstack/virtualbmc**
+
 A virtual BMC for controlling virtual machines using IPMI commands.
 
 Installation
